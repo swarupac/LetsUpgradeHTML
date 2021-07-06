@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* css for header */
+
+.header{
+    height: 90px;
+    width: 100%;
+    /* background-color: #b89ce0; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    display: flex;
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    height: 90px;
+    width: 15%;
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+.nav{
+    height: 90px;
+    width: 35%;
+    display:flex;
+}
+.nav-item{
+    width: 20%;
+    height: 90px;
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .4s;
+}
+.nav-item:hover{
+    background-color: white;
+    color:#b89ce0;
+}
+
+/* css for banner */
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+}
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+    height: 350px;
+    width: 50%;
+    background-color: rgba(184, 156, 224, 0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color:#f9d5ff;
+}
+.banner_title{
+    font-size: 50px;
+    color: seashell;
+}
+.banner_desc{
+    margin-bottom: 30px;
+}
+.padd{
+    padding: 50px;
+}
+.banner_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner_btn:hover{
+    background-color: white;
+    color:#b89ce0;
+}
+/* css for services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+    background-color: #dcdcdc;
+
+}
+.services_container{
+    margin-top:50px;
+    margin-bottom: 50px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.service{
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    border: dotted #b89ce0;
+    margin-top: 20px;
+}
+.service_img{
+    width:40%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+    .service_details{
+        width:60%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }    
+.service_padd{
+    padding: 20px;
+}
+
+.service_title{
+    margin-bottom: 15px;
+}
+.service_desc{
+    margin-bottom: 30px;
+}
+.service_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: #b89ce0;
+    color: white;
+    font-weight: bold;
+    font-family: segoe UI;
+    border: solid #b89ce0;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+.service_btn:hover{
+    background-color: white;
+    color:#b89ce0;
+}    
+.service_btn_ori{
+    display: flex;
+    justify-content: center; 
+}
+
+/* css for about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+.about_container{
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+/* css for highlight */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #b89ce0;
+}
+.highlight_container{
+    justify-content: space-between;
+}
+.high_ele{
+    width:22%;
+    height: 230px;
+    background-color:rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    text-align: center;
+    color: white;
+    border: solid white;
+}
+.high_title{
+    font-size: 60px;
+}
+.high_desc{
+    font-size: 25px;
+}
+/* css for quote */
+
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+}
+
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.quote_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: #b89ce0;
+    color: white;
+    font-weight: bold;
+    font-family: segoe UI;
+    border: solid #b89ce0;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.quote_btn:hover{
+    background-color: white;
+    color:#b89ce0;
+}
+/* css for portfolio  */
+.portfolio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4e4;
+    font-family: segoe UI;
+}
+
+.portfolio_container{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1{
+    background-image: url('https://blog.eduonix.com/wp-content/uploads/2018/09/Scientific-Python-Scipy-696x500.jpg');
+    background-size: cover;
+}
+
+.project_2{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/71CESlxHAHL.png');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_3{
+    background-image: url('https://lh3.googleusercontent.com/proxy/Y9acJm_ovG2RhtKIPW_9yfS-ofH9d36n5B1H6PSMOG5IQC8EaVvBeRb1WPaas9cB5uudKp0ym7KYrmtmZn0ouzEZ3GFbyVfVVad_QPQCtW-9bRdO3ITjV4RGE7rgBNcyEUmBpM8dDVJ5Jlc');
+    background-size: cover;
+}
+.project_4{
+    background-image: url('https://nativetheorydigital.com/wp-content/uploads/2018/07/hero-social-media-marketing-03.png');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_5{
+    background-image: url('https://static2.tripoto.com/media/filter/tst/img/461838/TripDocument/1540189570_camera_grass_hand_105254.jpg');
+    background-size: cover;
+}
+.project_6{
+    background-image: url('https://www.orangescrum.com/blog/wp-content/uploads/2019/09/Complexities-of-Time-Management-The-Art-of-Scheduling-and-Time-Tracking.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_7{
+    background-image: url('https://data.whicdn.com/images/338763591/original.jpg?t=1577378520');
+    background-size: cover;
+}
+.project_8{
+    background-image: url('https://image.kpopmap.com/2020/09/bts-jungkook-drawing-2.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title{
+    color: white;
+    width: 100%;
+    height: 120px;
+    text-indent: 30px;
+    line-height: 150px;
+    background-color:rgba(184, 156, 224, 0.8) ;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.project_title:hover{
+    height: 400px;
+}
+
+/* css for footer  */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_child_1{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first{
+    font-size: 24px;
+    color: rgba(184, 156, 224, 0.8);
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_container{
+    width: 50%;
+    justify-content: space-between;
+}   
+
+.social_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+}
+
+
+.si1{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/fletro-long-shadow-internet-shortcuts/128/Facebook.png');
+}
+
+.si2{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_linkedin-256.png');
+}
+
+.si3{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-GooglePlus.png');
+}
+
+.si4{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/155/social-media_instagram-256.png');
+}
